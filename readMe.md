@@ -20,9 +20,13 @@ _This application is was part of a project for my school at Epicodus, it has a h
 
 
 ## Specifications
+
+* _Basic component tree layout_
+![screenshot 8](https://user-images.githubusercontent.com/43968782/52887938-93d55880-312e-11e9-9804-be24a9bdb6d7.png)
+
 * _The initial home-page will give a user the option to sign in through google authentication in the right hand corner._
 
-![image](https://user-images.githubusercontent.com/43968782/52170155-18b97e80-26fa-11e9-9cbd-9f0c2bd3ef14.png)
+
 
 * _User can enter there name, address, and year income to see if they are eligible for OHP health insurance, if there yearly income is above 35,000 the output will return false_
 
