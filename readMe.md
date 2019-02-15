@@ -24,53 +24,22 @@ _This application is was part of a project for my school at Epicodus, it has a h
 * _Basic component tree layout_
 ![screenshot 8](https://user-images.githubusercontent.com/43968782/52887938-93d55880-312e-11e9-9804-be24a9bdb6d7.png)
 
-* _The initial home-page will give a user the option to sign in through google authentication in the right hand corner._
+* _The initial home-page will will have links list below the nav-bar as shown below._
+![screenshot 9](https://user-images.githubusercontent.com/43968782/52888193-9dab8b80-312f-11e9-9e93-d2e0139b3fe7.png)
 
+* _The projects link takes you a page where my top four projects are displayed with a short description._
 
+* _The education link will take you to a resume like layout of my education._
 
-* _User can enter there name, address, and year income to see if they are eligible for OHP health insurance, if there yearly income is above 35,000 the output will return false_
+* _The work history link will take you to a resume like layout of my work history._
 
-* _If user is not eligible for OHP health insurance they can click a button to see list of paid Insurance packages they have available._
+* _The Interest link will take you three more links Csharp, React, and teaching._
 
-* _User can click on the link "Quick Start Guide" , Output will direct you to a new page that has input fields for name, address, and salary._
-
-* _If user fills out the forms and clicks on add, Output will save the users information onto the database and display the information on the screen._
-
-![image](https://user-images.githubusercontent.com/43968782/52155615-7e453680-2638-11e9-89c8-12a44df897bd.png)
-
-* _Only the users name, address, and salary will be displayed onto the screen and saved to the database, The user name and password that you create will give you an option to be saved after you click enter enrollment._
-
-
-* _If a user clicks on the edit button, Output will be three input fields  that match the input fields from above with a live edit._
-
-* _A user can enter multiple inputs with the input fields and it will save them into the database._
-
-* _If the user clicks on the enter-enroll button next to the add button, Output will take them to a new page that lets them know there information has been submitted with a button to take them back to the home-page. This information is pulled from the database based on the last inputted information._
-
-![image](https://user-images.githubusercontent.com/43968782/52170094-e4918e00-26f8-11e9-9369-d604d10827d5.png)
-
-* _The Get contact link next to the quick-start link will ask to be directed back to the Home-Page using the original link from its replica website._
-
-* _The find-local help link will take you to a different page on the healthcare.gov website that askes you to enter in your area to help you find a representative or help line to guide you through the website._
-
-* _API specs-----------------------------these specs are to be ignored until API is correctly installed_
-
-* _User can to enter a medical issue to receive a list of doctors in the Portland area that fit the input_
-
-* _User can enter a name to receive a list of doctors in the Portland area that fit search criteria_
-
-* _After user had entered in the name or criteria the output should display first name, last name, address, phone number, and whether or not the doctor is taking new patients._
-
-* _If the output does not meet any of the search criteria and there are no doctors available it should output "no doctors meet the criteria"_
-
-
-
-
-
+* _These three links will have short bit of information on why I like each language and the teaching link display a bit how I want to pursue teaching in this field down the road._
 
 ## Known Bugs
 
-_At this time the application is not complete and will have API for the input field that says doctor look-up, The create user name and password fields don't actually save your information into anything at this time, and on the login page though it tells you that you have logged in it is not actually vetting your info._
+_At this time all the links work but project is not finished and some of the links may take you to a blank page._
 
 ## Support and contact details
 
