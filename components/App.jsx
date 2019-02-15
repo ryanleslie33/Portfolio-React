@@ -5,7 +5,11 @@ import Projects from './Projects/Projects.jsx';
 import Education from './Education.jsx';
 import Work from './Work.jsx';
 import Header from './Header.jsx';
-import Health from './Projects/Health'
+import Health from './Projects/Health';
+import Interest from './Interest/Interest.jsx';
+import Csharp from './Interest/Csharp.jsx';
+import Teaching from './Interest/Teaching.jsx';
+import Api from './Interest/Api.jsx';
 
 
 
@@ -20,6 +24,13 @@ function App(){
 <Route exact path='/projects' component={Projects} />
 <Route exact path='/education' component={Education} />
 <Route exact path='/work' component={Work} />
+<Route exact path='/health' component={Health} />
+<Route exact path='/interest' component={Interest} />
+<Route exact path='/teaching' component={Teaching} />
+<Route exact path='/api' component={Api} />
+<Route exact path='/csharp' component={Csharp} />
+
+
       </Switch>
     </div>
   );

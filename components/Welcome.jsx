@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {me} from 'C:/Users/ryan leslie/Desktop/Portfolio/src/assets/images/me.jpg';
+import ryan from '../src/assets/images/ryan.jpg'
 
 
 function Welcome(){
@@ -15,9 +15,9 @@ function Welcome(){
   return (
     
     <div style={link} >
-    <img style={picture} src={me} />
+  
     <h1> Welcome to my Portfolio</h1>
-    
+    <img style={picture} src={ryan}/>
     
     <Link to="/Projects">Projects</Link>
     <br/>
