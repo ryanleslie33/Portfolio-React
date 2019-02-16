@@ -23,8 +23,8 @@
         "react/no-multi-comp": 2,
         "react/jsx-key": 2,
         "react/jsx-indent-props": [
-            "warn",
-            1
+            "off",
+            0
           ],
         "react/jsx-pascal-case": 2,
         "react/prop-types": 2,
