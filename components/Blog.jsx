@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-
 import CardContent from '@material-ui/core/CardContent';
-
 import Typography from '@material-ui/core/Typography';
+import TextField from './TextField.jsx'
+
 
 const styles = {
   card: {
@@ -34,25 +34,28 @@ function Blog(props) {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
+
     <Card className={classes.card}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Word of the Day
+          Add a blog here for comments on projects
         </Typography>
         <Typography variant="h5" component="h2">
-          be
+                <textarea type='text' />
           {bull}
-          nev
-          {bull}o{bull}
-          lent
+
+          {bull}
+
+          {bull}
+
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          adjective
+
         </Typography>
         <Typography component="p">
-          well meaning and kindly.
+
           <br />
-          {'"a benevolent smile"'}
+
         </Typography>
       </CardContent>
 
