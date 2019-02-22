@@ -22,7 +22,7 @@ function Header(){
         <Typography  variant="h6" color="inherit">
           <Link style={font} to="/">Home</Link>
           <br/>
-          <Link style={font} to="/addProject">Add a Project</Link>
+          <Link style={font} to="/addproject">Add a Project</Link>
         </Typography>
       </Toolbar>
     </AppBar>

@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AddProject from './AddProject';
-import AddProject from './Projects/AddProject.jsx'
-import SingledProject from './Projects/SingledProject.jsx'
+import AddProject from '../Projects/AddProject.jsx'
+import SingleProject from '../Projects/SingleProject.jsx'
 
 
 class ProjectList extends React.Component{
