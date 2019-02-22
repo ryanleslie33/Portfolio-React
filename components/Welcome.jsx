@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 
 function Welcome(){
   let link = {
-    gridArea: " / col4-start / last-line / 2",
+
     fontSize:"40px",
     backgroundColor:"grey",
     alignContent: "space-around",
@@ -19,33 +19,45 @@ function Welcome(){
     width: '1100px',
     border:'25px solid blue',
     padding:'25px',
-    margin:'25px'
+    margin:'25px',
+
+
 
   }
 
   let box = {
+    width: '100px',
+    border:'25px solid blue',
+    padding:'20px',
+    margin:'10px',
+    borderRadius: "25px"
+
+  }
+  let profile = {
+
     width: '300px',
     border:'25px solid blue',
     padding:'50px',
-    margin:'25px'
-  }
-  let profile = {
-    gridArea: 'sidebar',
+    margin:'25px',
+    textAlign:'auto',
+    float:'right',
+    borderRadius: "25px"
 
 
   }
   return (
 
     <div style={link} >
-    <h1 style={box}> Welcome to my Portfolio</h1>
-
-     <img style={box}  src={ryan}/>
-     <Blog   />
-
-
-
+      <h1 style={box} > Welcome to my Portfolio</h1>
+      <hr/>
+      <br/>
+      <Blog style={profile}/>
+     <img style={profile}  src={ryan}/>
     <hr/>
-    <Link to="/Projects">Projects</Link>
+    <br/>
+    <br/>
+    <br/>
+    <Link  to="/Projects">Projects</Link>
     <hr/>
     <br/>
     <Link to="/Education">Education</Link>

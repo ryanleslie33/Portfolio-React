@@ -11,11 +11,17 @@ const styles = {
   card: {
     minWidth: 150,
     maxWidth:220,
-    gridArea: "6 / col4-start / last-line / 3",
+gridArea: "1 / col4-start / last-line / 6",
     width: '300px',
     border:'25px solid blue',
-    padding:'50px',
-    margin:'25px'
+    padding:'100px',
+    margin:'25px',
+    float:'right',
+    overFlow:'right',
+    backgroundColor:'grey',
+    borderRadius: "25px"
+
+
 
 
 
@@ -27,7 +33,7 @@ const styles = {
 
   },
   title: {
-    fontSize: 14,
+    fontSize: 24,
   },
   pos: {
     marginBottom: 12,

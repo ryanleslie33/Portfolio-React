@@ -3,6 +3,7 @@ import   React  from 'react';
 import Info from '../Projects/Info.jsx'
 
 class AddProject extends React.Component{
+
   _name:string;
   _technologies:string;
   _description:string;
@@ -27,27 +28,46 @@ class AddProject extends React.Component{
   }
 
   render(){
+    let style2 = {
+      width: "1100px",
+  height:"600px",
+   border: "20px solid blue",
+   padding: "10px",
+   margin: "20px",
+   display: "grid",
+   fontSize:'80px',
+   backgroundColor:'grey',
+   textSize:'40px'
+    }
+    let font ={
+      fontSize:'40px',
+      textSize:'30px'
+    }
     return (
-      <div>
-        <form onSubmit={this.handleNewProject} >
-          <input
-            placeholder='name'
+      <div style={style2} >
+        <form  onSubmit={this.handleNewProject} >
+          <input style={font}
+            placeholder='name of project'
             ref={(input) => {this._name = input}}
             />
-          <input
+            <br/>
+          <input style={font}
             placeholder='technologies'
             ref={(input) => {this._technologies = input}}
             />
-            <input
+              <br/>
+            <input style={font}
               placeholder='description'
               ref={(input) => {this._description = input}}
               />
-              <input
+                <br/>
+              <input style={font}
                 placeholder='status'
                 ref={(input) => {this._status = input}}
                 />
+                <br/>
 
-          <button type='submit'>submit</button>
+          <button style={font} type='submit'>submit</button>
         </form>
 
       </div>
