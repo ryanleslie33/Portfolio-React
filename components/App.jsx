@@ -15,6 +15,7 @@ import ProjectList from './Projects/ProjectList.jsx'
 import SingleProject from './Projects/SingleProject.jsx'
 import PropTypes from 'prop-types';
 import Blog from './Blog.jsx'
+import ListDividers from './ListDividers'
 
 
 
@@ -39,10 +40,10 @@ render(){
   return (
     <div>
     <Header/>
-  
+
       <Switch>
 <Route exact path='/' component={Welcome} />
-
+<Route exact path='/listdividers' component={ListDividers} />
 <Route exact path='/education' component={Education} />
 <Route exact path='/work' component={Work} />
 <Route exact path='/health' component={Health} />
