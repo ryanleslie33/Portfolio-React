@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ryan from '../src/assets/images/ryan.jpg'
+import Blog from './Blog.jsx'
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+
 
 
 function Welcome(){
@@ -15,7 +20,7 @@ function Welcome(){
   return (
 
     <div style={link} >
-
+ <Blog/>
     <h1> Welcome to my Portfolio</h1>
     <img style={picture} src={ryan}/>
 
@@ -28,7 +33,6 @@ function Welcome(){
     <Link to="/Interest">Interest</Link>
     <br/>
     <br/>
-    <h2>Click here to add blog about my projects</h2>
     </div>
   );
 }

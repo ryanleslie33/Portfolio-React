@@ -23,6 +23,9 @@ function Header(){
           <Link style={font} to="/">Home</Link>
           <br/>
           <Link style={font} to="/addproject">Add a Project</Link>
+          <br/>
+          <Link style={font} to="/projects">Projects</Link>
+
         </Typography>
       </Toolbar>
     </AppBar>

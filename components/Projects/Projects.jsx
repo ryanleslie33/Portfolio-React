@@ -18,21 +18,19 @@ function Projects(){
   return (
     <div style={projects2} >
     <h1> List of Projects </h1>
-        
 
-        <Link to="/Health">Health</Link>
         <Health/>
         <br/>
         <br/>
-        <Link to="/Haiku">Haiku</Link>
+
         <Haiku/>
           <br/>
           <br/>
-        <Link to="/Jyoukbox">Joukbox</Link>
+
         <Jyoukbox/>
           <br/>
           <br/>
-        <Link to="/Wiki">WikiPedia races</Link>
+      
         <Wiki/>
         <br/>
         <br/>
