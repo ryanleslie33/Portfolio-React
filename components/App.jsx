@@ -10,6 +10,7 @@ import Interest from './Interest/Interest.jsx';
 import Csharp from './Interest/Csharp.jsx';
 import Teaching from './Interest/Teaching.jsx';
 import Api from './Interest/Api.jsx';
+import AddProject from './Projects/AddProject.jsx'
 
 
 
@@ -18,7 +19,7 @@ function App(){
   return (
     <div>
     <Header/>
-  
+
       <Switch>
 <Route exact path='/' component={Welcome} />
 <Route exact path='/projects' component={Projects} />
@@ -29,6 +30,7 @@ function App(){
 <Route exact path='/teaching' component={Teaching} />
 <Route exact path='/api' component={Api} />
 <Route exact path='/csharp' component={Csharp} />
+<Route exact path='/addProject' component={AddProject} />
 
 
       </Switch>
