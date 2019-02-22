@@ -50,7 +50,7 @@ render(){
 <Route exact path='/api' component={Api} />
 <Route exact path='/csharp' component={Csharp} />
 <Route exact path='/addProject'render={()=><AddProject onNewProjectCreation={this.handleAddingNewProjectToList} />} />
-<Route exact path='/thing' render={()=><ProjectList projectList={this.state.masterProjectList} />} />
+<Route exact path='/projects' render={()=><ProjectList projectList={this.state.masterProjectList} />} />
 
 
       </Switch>
