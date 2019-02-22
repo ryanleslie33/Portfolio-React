@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom';
 
 let header = {
   backgroundColor:"blue"
-  
+}
+let font = {
+  color:"black"
 }
 
 function Header(){
@@ -17,8 +19,10 @@ function Header(){
     <div>
     <AppBar style={header} position="static" color="default">
       <Toolbar>
-        <Typography variant="h6" color="inherit">
-          <Link to="/">Home</Link>
+        <Typography  variant="h6" color="inherit">
+          <Link style={font} to="/">Home</Link>
+          <br/>
+          <Link style={font} to="/addProject">Add a Project</Link>
         </Typography>
       </Toolbar>
     </AppBar>

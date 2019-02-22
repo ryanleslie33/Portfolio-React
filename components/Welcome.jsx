@@ -13,12 +13,12 @@ function Welcome(){
     float:"right"
   }
   return (
-    
+
     <div style={link} >
-  
+
     <h1> Welcome to my Portfolio</h1>
     <img style={picture} src={ryan}/>
-    
+
     <Link to="/Projects">Projects</Link>
     <br/>
     <Link to="/Education">Education</Link>
@@ -28,7 +28,7 @@ function Welcome(){
     <Link to="/Interest">Interest</Link>
     <br/>
     <br/>
-    
+    <h2>Click here to add blog about my projects</h2>
     </div>
   );
 }
