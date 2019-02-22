@@ -15,12 +15,12 @@ function Welcome(){
     backgroundColor:"grey"
   }
   let picture = {
-    float:"right"
+    gridArea: "1 / col4-start / last-line / 3"
   }
   return (
 
     <div style={link} >
- <Blog/>
+
     <h1> Welcome to my Portfolio</h1>
     <img style={picture} src={ryan}/>
 
@@ -30,9 +30,11 @@ function Welcome(){
     <br/>
     <Link to="/Work">Work</Link>
     <br/>
+    <br/>
     <Link to="/Interest">Interest</Link>
     <br/>
     <br/>
+    <Blog style={picture}/>
     </div>
   );
 }
