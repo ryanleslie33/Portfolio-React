@@ -11,7 +11,13 @@ const styles = {
   card: {
     minWidth: 150,
     maxWidth:220,
-    gridArea: "6 / col4-start / last-line / 3"
+    gridArea: "6 / col4-start / last-line / 3",
+    width: '300px',
+    border:'25px solid blue',
+    padding:'50px',
+    margin:'25px'
+
+
 
   },
   bullet: {
