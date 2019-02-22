@@ -5,9 +5,11 @@ import {workHistory} from '../src/Workhistory.js';
 
 
 function Work(){
-  
+  let work = {
+    backgroundColor:'grey'
+  }
   return (
-    <div  >
+    <div style={work}  >
     {workHistory.map((history, index) =>
       <WorkHistory
       company={history.company}

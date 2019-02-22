@@ -4,13 +4,13 @@ import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import TextField from './TextField.jsx'
+
 
 
 const styles = {
   card: {
-    minWidth: 100,
-    maxWidth:180,
+    minWidth: 150,
+    maxWidth:220,
     gridArea: "6 / col4-start / last-line / 3"
 
   },
@@ -38,15 +38,17 @@ function Blog(props) {
     <Card className={classes.card}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Add a blog here for comments on projects
+          profile
         </Typography>
-        <Typography variant="h5" component="h2">
-                <textarea type='text' />
-          {bull}
+        <Typography className={classes.title} variant="h5" component="h2">
 
-          {bull}
+           Ryan Leslie
+           ryanleslie33@aol.com
+           Epicodus
 
-          {bull}
+
+
+
 
         </Typography>
         <Typography className={classes.pos} color="textSecondary">

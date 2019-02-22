@@ -5,6 +5,7 @@ import Blog from './Blog.jsx'
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import Form from './Form.jsx'
 
 
 
@@ -35,6 +36,7 @@ function Welcome(){
     <br/>
     <br/>
     <Blog style={picture}/>
+  
     </div>
   );
 }
