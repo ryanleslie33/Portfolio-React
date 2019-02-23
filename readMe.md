@@ -1,6 +1,6 @@
 # _Portfolio_
 
-#### _{Has several links to projects I have finished or am working on, education, work history, and technical Interest}, {Febuary 15, 2019}_
+#### _{ This was an educational application that has several links to projects I have finished or am working on, education, work history, and technical Interest, Keep in mine this application is a working progress and is not finished including this readMe.}, {Febuary 15, 2019}_
 
 #### By _**{Ryan Leslie}**_
 
@@ -25,10 +25,14 @@ _This application is was part of a project for my school at Epicodus, it has a h
 ![image](https://user-images.githubusercontent.com/43968782/53278761-0fe81700-36c0-11e9-8e08-10d1f0879595.png)
 
 
-* _The initial home-page will have links list below the Nav-bar as shown below._
+* _The initial home-page will have links listed below the Nav-bar._
 
+* _The Nav-bar will have Home, AddProject, and Projects options._
 
-* _The projects link takes you a page where my top four projects are displayed with a short description._
+* _The Add Project link will take you a new page where you can add a project to the project list_
+
+* _The the Project List link will take you to the list of projects._
+
 
 * _The education link will take you to a resume like layout of my education._
 
