@@ -20,9 +20,6 @@ function Welcome(){
     border:'25px solid blue',
     padding:'25px',
     margin:'25px',
-
-
-
   }
 
   let box = {
@@ -42,8 +39,6 @@ function Welcome(){
     textAlign:'auto',
     float:'right',
     borderRadius: "25px"
-
-
   }
   return (
 

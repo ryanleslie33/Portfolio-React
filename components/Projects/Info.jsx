@@ -2,14 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {projectInfo} from '../../src/info.js';
 
-
 function Info(props) {
 let aboutStyle = {
   fontSize: "50px"
 }
   return (
-
-
 
   <div style={aboutStyle}>
     <h3> name: {props.name}</h3>
@@ -17,7 +14,6 @@ let aboutStyle = {
       <h5>description: {props.description}</h5>
       <h5>status: {props.status}</h5>
   </div>
-
 
   );
 }

@@ -2,9 +2,6 @@ import React from 'react';
 import Info from '../Projects/Info.jsx';
 import {projectInfo} from '../../src/info.js';
 
-
-
-
 function Haiku(){
 
   return (

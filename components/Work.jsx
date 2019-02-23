@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import WorkHistory from '../components/WorkHistory.jsx'
 import {workHistory} from '../src/Workhistory.js';
 
-
 function Work(){
   let work = {
     backgroundColor:'grey'

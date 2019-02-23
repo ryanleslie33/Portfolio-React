@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-
 function SingleProject(props) {
   let aboutStyle = {
     fontSize: "50px"

@@ -17,47 +17,41 @@ import PropTypes from 'prop-types';
 import Blog from './Blog.jsx'
 
 
-
-
-
-
 class App extends React.Component{
   constructor(props) {
-  super(props);
-  this.state = {
-    masterProjectList: []
-  };
-  this.handleAddingNewProjectToList = this.handleAddingNewProjectToList.bind(this);
-}
-handleAddingNewProjectToList(newProject) {
-var newMasterProjectList = this.state.masterProjectList.slice();
-newMasterProjectList.push(newProject);
-this.setState({masterProjectList: newMasterProjectList});
-}
-render(){
+    super(props);
+    this.state = {
+      masterProjectList: []
+    };
+    this.handleAddingNewProjectToList = this.handleAddingNewProjectToList.bind(this);
+  }
+  handleAddingNewProjectToList(newProject) {
+    var newMasterProjectList = this.state.masterProjectList.slice();
+    newMasterProjectList.push(newProject);
+    this.setState({masterProjectList: newMasterProjectList});
+  }
+  render(){
 
 
-  return (
-    <div>
-    <Header/>
-
+    return (
+      <div>
+      <Header/>
       <Switch>
-<Route exact path='/' component={Welcome} />
-<Route exact path='/education' component={Education} />
-<Route exact path='/work' component={Work} />
-<Route exact path='/health' component={Health} />
-<Route exact path='/interest' component={Interest} />
-<Route exact path='/teaching' component={Teaching} />
-<Route exact path='/api' component={Api} />
-<Route exact path='/csharp' component={Csharp} />
-<Route exact path='/addProject'render={()=><AddProject onNewProjectCreation={this.handleAddingNewProjectToList} />} />
-<Route exact path='/projects' render={()=><ProjectList projectList={this.state.masterProjectList} />} />
-
+      <Route exact path='/' component={Welcome} />
+      <Route exact path='/education' component={Education} />
+      <Route exact path='/work' component={Work} />
+      <Route exact path='/health' component={Health} />
+      <Route exact path='/interest' component={Interest} />
+      <Route exact path='/teaching' component={Teaching} />
+      <Route exact path='/api' component={Api} />
+      <Route exact path='/csharp' component={Csharp} />
+      <Route exact path='/addProject'render={()=><AddProject onNewProjectCreation={this.handleAddingNewProjectToList} />} />
+      <Route exact path='/projects' render={()=><ProjectList projectList={this.state.masterProjectList} />} />
 
       </Switch>
-    </div>
-  );
-}
+      </div>
+    );
+  }
 }
 
 export default App;
