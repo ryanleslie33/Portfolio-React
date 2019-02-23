@@ -1,4 +1,4 @@
-# _Portfolio_ 
+# _Portfolio_
 
 #### _{Has several links to projects I have finished or am working on, education, work history, and technical Interest}, {Febuary 15, 2019}_
 
@@ -22,10 +22,11 @@ _This application is was part of a project for my school at Epicodus, it has a h
 ## Specifications
 
 * _Basic component tree layout_
-![screenshot 8](https://user-images.githubusercontent.com/43968782/52887938-93d55880-312e-11e9-9804-be24a9bdb6d7.png)
+![image](https://user-images.githubusercontent.com/43968782/53278761-0fe81700-36c0-11e9-8e08-10d1f0879595.png)
 
-* _The initial home-page will will have links list below the nav-bar as shown below._
-![screenshot 9](https://user-images.githubusercontent.com/43968782/52888193-9dab8b80-312f-11e9-9e93-d2e0139b3fe7.png)
+
+* _The initial home-page will have links list below the Nav-bar as shown below._
+
 
 * _The projects link takes you a page where my top four projects are displayed with a short description._
 
@@ -33,7 +34,7 @@ _This application is was part of a project for my school at Epicodus, it has a h
 
 * _The work history link will take you to a resume like layout of my work history._
 
-* _The Interest link will take you three more links Csharp, React, and teaching._
+* _The Interest link will take you three more links C-#, React, and teaching._
 
 * _These three links will have short bit of information on why I like each language and the teaching link display a bit how I want to pursue teaching in this field down the road._
 

@@ -5,13 +5,11 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-
-
 const styles = {
   card: {
     minWidth: 150,
     maxWidth:220,
-gridArea: "1 / col4-start / last-line / 6",
+    gridArea: "1 / col4-start / last-line / 6",
     width: '300px',
     border:'25px solid blue',
     padding:'100px',
@@ -20,11 +18,6 @@ gridArea: "1 / col4-start / last-line / 6",
     overFlow:'right',
     backgroundColor:'grey',
     borderRadius: "25px"
-
-
-
-
-
   },
   bullet: {
     display: 'inline-block',
@@ -48,30 +41,26 @@ function Blog(props) {
   return (
 
     <Card className={classes.card}>
-      <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          profile
-        </Typography>
-        <Typography className={classes.title} variant="h5" component="h2">
+    <CardContent>
+    <Typography className={classes.title} color="textSecondary" gutterBottom>
+    profile
+    </Typography>
+    <Typography className={classes.title} variant="h5" component="h2">
 
-           Ryan Leslie
-           ryanleslie33@aol.com
-           Epicodus
+    Ryan Leslie
+    ryanleslie33@aol.com
+    Epicodus
+  
+    </Typography>
+    <Typography className={classes.pos} color="textSecondary">
 
+    </Typography>
+    <Typography component="p">
 
+    <br />
 
-
-
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-
-        </Typography>
-        <Typography component="p">
-
-          <br />
-
-        </Typography>
-      </CardContent>
+    </Typography>
+    </CardContent>
 
     </Card>
   );
