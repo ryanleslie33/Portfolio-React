@@ -22,7 +22,8 @@ _This application is was part of a project for my school at Epicodus, it has a h
 ## Specifications
 
 * _Basic component tree layout_
-![image](https://user-images.githubusercontent.com/43968782/53593108-adbe6480-3b4c-11e9-83af-10f7eff4ea75.png)
+![image](https://user-images.githubusercontent.com/43968782/53593259-16a5dc80-3b4d-11e9-9ae0-e743c2ce4781.png)
+
 
 
 
