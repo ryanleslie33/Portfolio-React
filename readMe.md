@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application is was part of a project for my school at Epicodus, it has a home page a directory to my projects I have worked on at Epicodus with there descriptions and a little information about them. There is also links that direct you to my current work history,education, and techinical interest as far as what languages I like working with and specific interest in the industry that I am interested in. This application is a working progress right now and is not finished. I plan on updating the projects info with readMe's and links to my github so people can go onto my site and checkout all the work I have done and read a little bit about myself._
+_This application is was part of a project for my school at Epicodus, This educational app was made for practicing lifting state and using props, it has a home page a directory to my projects I have worked on at Epicodus with there descriptions and a little information about them. There is also links that direct you to my current work history,education, and techinical interest as far as what languages I like working with and specific interest in the industry that I am interested in. This application is a working progress right now and is not finished. I plan on updating the projects info with readMe's and links to my github so people can go onto my site and checkout all the work I have done and read a little bit about myself._
 
 ## Setup/Installation Requirements
 
