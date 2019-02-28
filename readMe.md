@@ -22,7 +22,8 @@ _This application is was part of a project for my school at Epicodus, it has a h
 ## Specifications
 
 * _Basic component tree layout_
-![image](https://user-images.githubusercontent.com/43968782/53278761-0fe81700-36c0-11e9-8e08-10d1f0879595.png)
+![image](https://user-images.githubusercontent.com/43968782/53593108-adbe6480-3b4c-11e9-83af-10f7eff4ea75.png)
+
 
 
 * _The initial home-page will have links listed below the Nav-bar._
